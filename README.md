@@ -68,3 +68,24 @@ MERN-Digital-e-Card-Creator-React-Express-MongoDB/
 │
 └── README.md                    # Project documentation
 ```
+
+
+---
+
+## 🧪 API Endpoints
+
+| Method | Endpoint       | Description              |
+|--------|----------------|--------------------------|
+| POST   | `/card`        | Create a new e-card      |
+| GET    | `/cards`       | Get all e-cards          |
+| GET    | `/card/:id`    | Get a single e-card      |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+  git clone https://github.com/YOUR-USERNAME/mern-ecard-generator.git
+  cd mern-ecard-generator
+```
