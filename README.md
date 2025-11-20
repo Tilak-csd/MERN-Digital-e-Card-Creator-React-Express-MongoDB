@@ -22,8 +22,8 @@ The app validates user input, saves the data to MongoDB, and displays an interac
 ### **Frontend**
 - React  
 - React Hooks  
-- Fetch API / Axios  
-- CSS / Tailwind (optional)
+- Fetch API 
+- CSS 
 
 ### **Backend**
 - Node.js  
@@ -32,27 +32,39 @@ The app validates user input, saves the data to MongoDB, and displays an interac
 
 ### **Database**
 - MongoDB  
-- Mongoose ORM  
 
 ---
 
 ## 📂 Project Structure
-
-mern-digital-e-card-creator-react-express-mongodb/
+```bash
+MERN-Digital-e-Card-Creator-React-Express-MongoDB/
 │
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.jsx
-│ │ └── index.js
-│ └── package.json
+├── backend/                     # Express + Node.js backend
+│   ├── db.js                    # MongoDB connection
+│   ├── form.js                  # Zod validation schema
+│   ├── index.js                 # Main server file (Express app)
+│   ├── package.json
+│   └── package-lock.json
 │
-├── server/ # Express backend
-│ ├── routes/
-│ ├── models/
-│ ├── controllers/
-│ ├── form.js # Zod schema
-│ ├── server.js
-│ └── package.json
+├── frontend/                    # React + Vite frontend
+│   ├── public/                  # Static assets
+│   ├── src/
+│   │   ├── assets/              # Images, icons, etc.
+│   │   ├── components/          # React components
+│   │   │   ├── Card.jsx
+│   │   │   ├── Card.module.css
+│   │   │   ├── Form.jsx
+│   │   │   ├── Form.css
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   └── .gitignore
 │
-└── README.md
+└── README.md                    # Project documentation
+```
