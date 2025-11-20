@@ -85,6 +85,6 @@ MERN-Digital-e-Card-Creator-React-Express-MongoDB/
 
 ### 1️⃣ Clone the repository
 ```bash
-  git clone https://github.com/YOUR-USERNAME/mern-ecard-generator.git
-  cd mern-ecard-generator
+  git clone https://github.com/Tilak-csd/MERN-Digital-e-Card-Creator-React-Express-MongoDB.git
+  cd MERN-Digital-e-Card-Creator-React-Express-MongoDB
 ```
