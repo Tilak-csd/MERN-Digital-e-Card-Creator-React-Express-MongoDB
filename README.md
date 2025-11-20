@@ -88,3 +88,45 @@ MERN-Digital-e-Card-Creator-React-Express-MongoDB/
   git clone https://github.com/Tilak-csd/MERN-Digital-e-Card-Creator-React-Express-MongoDB.git
   cd MERN-Digital-e-Card-Creator-React-Express-MongoDB
 ```
+### 2️⃣ Install backend dependencie
+```bash
+  cd backend
+  npm install
+```
+### 3️⃣ Start backend
+```bash
+  node index.js
+```
+### 4️⃣ Install frontend dependencies
+```bash
+  cd ../frontend
+  npm install
+```
+### 5️⃣ Start frontend
+```bash
+  npm run dev
+```
+
+---
+
+## 🎯 How It Works
+
+1. Users enter their **Name**, **Description**, **Interests**, and **Social Links**.
+2. The data is validated on both the **frontend** and **backend**.
+3. Valid data is stored securely in **MongoDB**.
+4. The frontend dynamically generates a **digital e-card** from the saved data.
+5. Social links automatically become **clickable buttons** on the card.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to improve.
+
+---
+
+## 📜 License
+
+MIT License © 2025
+
