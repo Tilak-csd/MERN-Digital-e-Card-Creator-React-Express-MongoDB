@@ -78,7 +78,6 @@ MERN-Digital-e-Card-Creator-React-Express-MongoDB/
 |--------|----------------|--------------------------|
 | POST   | `/card`        | Create a new e-card      |
 | GET    | `/cards`       | Get all e-cards          |
-| GET    | `/card/:id`    | Get a single e-card      |
 
 ---
 
